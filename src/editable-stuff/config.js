@@ -25,7 +25,7 @@ const mainBody = {
     // },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "www.linkedin.com/in/jolita-gedminaite",
     },
     // {
     //   image: "fa-twitter",
@@ -66,7 +66,7 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  gitHubUsername: "Jolita-byte", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
 };
@@ -126,8 +126,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for full-time Junior Data Analyst, Junior Data Scientist or Businiss Inteligence Analyst position opportunities! If you know of any positions available or if you have any questions, please feel free to email me at",
+  email: "jolita.gedminaite1@gmail.com",
 };
 
 const experiences = {
