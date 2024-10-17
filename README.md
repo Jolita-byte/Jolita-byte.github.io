@@ -1,3 +1,19 @@
+Add info to package.json :
+ "homepage": "https://jolita-byte.github.io",
+
+...
+   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+...
+
+run commands in folder:
+npm install gh-pages --save-dev
+npm run deploy
+
+
+
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
