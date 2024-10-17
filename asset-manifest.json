@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.fe927caf.css",
-    "main.js": "/static/js/main.651fa48d.js",
+    "main.js": "/static/js/main.cd9800be.js",
     "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
     "static/media/JolitaFoto.jpg": "/static/media/JolitaFoto.8acee3f0d87fdfedcc9a.jpg",
     "index.html": "/index.html",
     "main.fe927caf.css.map": "/static/css/main.fe927caf.css.map",
-    "main.651fa48d.js.map": "/static/js/main.651fa48d.js.map",
+    "main.cd9800be.js.map": "/static/js/main.cd9800be.js.map",
     "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe927caf.css",
-    "static/js/main.651fa48d.js"
+    "static/js/main.cd9800be.js"
   ]
 }
