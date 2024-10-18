@@ -47,8 +47,6 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
               height={imgSize}
             />
           )}
-        </div>
-        <div className={`col-lg-${showPic ? "7" : "12"}`}>
           <h2 className="display-4 mb-5 text-center">{heading}</h2>
           <p className="lead text-center">{message}</p>
           {resume && (
