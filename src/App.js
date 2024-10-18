@@ -93,6 +93,8 @@ const App = () => {
             heading={getInTouch.heading}
             message={getInTouch.message}
             email={getInTouch.email}
+            phoneMessage={getInTouch.phoneMessage}
+            phone={getInTouch.phone}
           />
         )}
       </Footer>

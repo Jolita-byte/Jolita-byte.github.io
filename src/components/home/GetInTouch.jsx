@@ -5,9 +5,9 @@ const GetInTouch = ({ heading, message, email, phoneMessage, phone}) => {
     <>
       <h2 className="display-4 pb-3 text-center">{heading}</h2>
       <p className="lead text-center pb-3">
-        {message}, <a className="text-decoration-none" href={`mailto:${email}`}>{email}</a>
+        {message} <a className="text-decoration-none" href={`mailto:${email}`}>{email}</a>
+        {phoneMessage} <a className="text-decoration-none" href={`tel:${phone}`}>{phone}</a>.
       </p>
-      <p>{phoneMessage}, <a className="text-decoration-none" href={`tel:${phone}`}>{phone}</a>.</p>
     </>
   );
 };
