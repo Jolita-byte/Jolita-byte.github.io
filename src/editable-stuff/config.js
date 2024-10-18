@@ -141,6 +141,8 @@ const getInTouch = {
   message:
     "I'm currently looking for full-time Junior Data Analyst, Junior Data Scientist or Businiss Inteligence Analyst position opportunities! If you know of any positions available or if you have any questions, please feel free to email me at",
   email: "jolita.gedminaite1@gmail.com",
+  phoneMessage: "or call",
+  phone: "+37064884404"
 };
 
 const experiences = {
