@@ -126,6 +126,12 @@ const skills = {
     { name: "Communication", value: 100 },
     { name: "Collaboration", value: 100 },
   ],
+
+  langSkills: [
+    { name: "Lithuanian", value: 100 },
+    { name: "English", value: 80 },
+    { name: "Russian", value: 20 },
+  ],
 };
 
 // GET IN TOUCH SECTION
