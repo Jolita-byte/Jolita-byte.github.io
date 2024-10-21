@@ -13,9 +13,8 @@ const ExperienceCard = ({ data }) => {
           {data.role}
           <br />
           {data.date}
-          <br />
-          {data.responsibilities}
         </p>
+        <p className="lead" dangerouslySetInnerHTML={{ __html: formatResponsibilities(data.responsibilities) }} />
 
       </div>
     </Col>
