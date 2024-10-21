@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/JolitaFoto.jpg"),
   imageSize: 375,
   message:
-    "My name is Jolita Gedminaitė. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+  "I am experienced Software Developer with a Master's in Computer Science, seeking a challenging position in the field of data analytics or data science to leverage my 16 years of experience in software development. Proficient in full software development lifecycles, system implementation, and consultation. Skilled in business analysis, problem-solving, quality assurance, and data processing. \n \n My technical expertise includes knowledge in SQL, Python, Power BI, Machine Learning, data processing, and data warehousing. I am committed to delivering high-quality results through a combination of strong work ethic, a passion for learning, and a dedication to excellence. \n I am eager to contribute my skills and experience to a dynamic team and drive innovative data-driven solutions."
   resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
 
