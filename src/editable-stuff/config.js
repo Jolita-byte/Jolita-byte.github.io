@@ -153,6 +153,7 @@ const experiences = {
       role: 'Business Central Consultant',// Here Add Company Name
       companylogo: require('../assets/img/Softera.png'),
       date: ' 2011 September – 2024 June',
+      responsibilities: "la la"
     },
     {
       role: 'Quality Assurance Engineer',// Here Add Company Name
