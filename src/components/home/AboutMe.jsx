@@ -45,7 +45,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
     // Set the image size on initial render and on resize events
     const handleResize = () => {
       const newImgSize = getImageSize();
-      setImgSize(newImgSize);
+      newImgSize(newImgSize);
     };
 
     window.addEventListener('resize', handleResize);
