@@ -154,8 +154,8 @@ const experiences = {
       companylogo: require('../assets/img/Softera.png'),
       date: ' 2011 September – 2024 June',
       responsibilities: 
-      `Project Management: Developed comprehensive project plans, managed priorities, and established timelines. Allocated tasks effectively to developers, ensuring efficient project execution.
-        Business Analysis: Conducted thorough requirements gathering and analysis to understand client needs. Mapped and optimized business processes to improve efficiency and effectiveness.
+      `**Project Management:** Developed comprehensive project plans, managed priorities, and established timelines. Allocated tasks effectively to developers, ensuring efficient project execution.
+        **Business Analysis:** Conducted thorough requirements gathering and analysis to understand client needs. Mapped and optimized business processes to improve efficiency and effectiveness.
         Software Development: Designed, developed and tested accounting, payroll and leasing software solutions, including customizations. Conducted communication with team members and stakeholders. Ensured software quality and functionality through rigorous testing and quality assurance processes.
         Customer Support: Provided timely technical assistance and training to clients. Resolved client issues promptly and effectively, addressing inquiries with a customer-centric approach.
         Documentation and User Training: Developed comprehensive requirement and functional documentation, as well as user manuals. Conducted informative user training sessions to enable clients to effectively utilize the software.`
