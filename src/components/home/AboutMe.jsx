@@ -43,22 +43,13 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
       </div>
       <div className="container row">
 
-      <div className="col-7 d-none d-xs-block d-sm-block d-md-block text-center">
+      <div className="col-lg-5 d-none d-xs-block d-sm-block d-md-block text-center">
             <img
               className="border border-secondary rounded-circle"
               src={profilePicUrl}
               alt="profilepicture"
-              width={imgSize*0.5}
-              height={imgSize*0.5}
-            />
-        </div>
-        <div className="col-5 d-none d-lg-block d-xl-block text-center">
-            <img
-              className="border border-secondary rounded-circle"
-              src={profilePicUrl}
-              alt="profilepicture"
-              width={imgSize}
-              height={imgSize}
+              width={imgSize*0.7}
+              height={imgSize*0.7}
             />
         </div>
         <div className="col-lg-7">
