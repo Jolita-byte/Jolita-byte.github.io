@@ -43,27 +43,25 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
       </div>
       <div className="container row">
 
-      <div className="col-5 d-none d-xs-block d-sm-block d-md-block align-self-center">
+      <div className="col-5 d-none d-xs-block d-sm-block d-md-block text-center">
           {showPic && (
             <img
-              className="border border-secondary rounded-circle mx-auto text-center"
+              className="border border-secondary rounded-circle"
               src={profilePicUrl}
               alt="profilepicture"
               width={imgSize*0.5}
               height={imgSize*0.5}
-              fill="responsive"
             />
           )}
         </div>
-        <div className="col-5 d-none d-lg-block d-xl-block align-self-center">
+        <div className="col-5 d-none d-lg-block d-xl-block text-center">
           {showPic && (
             <img
-              className="border border-secondary rounded-circle mx-auto text-center"
+              className="border border-secondary rounded-circle"
               src={profilePicUrl}
               alt="profilepicture"
               width={imgSize}
               height={imgSize}
-              fill="responsive"
             />
           )}
         </div>
