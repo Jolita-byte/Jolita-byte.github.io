@@ -32,7 +32,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
   }
   , [link]);
 
-  
+
 
     return (
     <Jumbotron id="aboutme" className="m-0">
@@ -42,10 +42,23 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
         </div> 
       </div>
       <div className="container row">
-        <div className="col-lg-5">
+
+      <div className="col-5 d-none d-xs-block d-md-block align-self-center">
           {showPic && (
             <img
-              className="border border-secondary rounded-circle mx-auto"
+              className="border border-secondary rounded-circle mx-auto text-center"
+              src={profilePicUrl}
+              alt="profilepicture"
+              width={imgSize*0.5}
+              height={imgSize*0.5}
+              fill="responsive"
+            />
+          )}
+        </div>
+        <div className="col-5 d-none d-lg-block d-xl-block align-self-center">
+          {showPic && (
+            <img
+              className="border border-secondary rounded-circle mx-auto text-center"
               src={profilePicUrl}
               alt="profilepicture"
               width={imgSize}
