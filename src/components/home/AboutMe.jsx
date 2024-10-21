@@ -43,7 +43,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
       </div>
       <div className="container row">
 
-      <div className="col-5 d-none d-xs-block d-md-block align-self-center">
+      <div className="col-5 d-none d-xs-block d-sm-block d-md-block align-self-center">
           {showPic && (
             <img
               className="border border-secondary rounded-circle mx-auto text-center"
