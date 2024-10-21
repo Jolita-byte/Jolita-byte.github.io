@@ -43,7 +43,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
       </div>
       <div className="container row">
 
-      <div className="col-lg-5 text-center">
+      <div className="col-lg-5 text-center pb-5">
             <img
               className="border border-secondary rounded-circle"
               src={profilePicUrl}
@@ -52,7 +52,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
               height={imgSize*0.7}
             />
         </div>
-        <div className="col-lg-7">
+        <div className="col-lg-7 pb-5">
           <p className="lead text-center">{message}</p>
           {resume && (
             <p className="lead text-center">
