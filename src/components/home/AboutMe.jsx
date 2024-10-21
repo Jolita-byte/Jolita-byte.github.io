@@ -40,7 +40,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
         <div className={`col-lg-${showPic ? "7" : "12"}`}>
           {showPic && (
             <img
-              className="border border-secondary rounded-circle text-center"
+              className="border border-secondary rounded-circle mx-auto"
               src={profilePicUrl}
               alt="profilepicture"
               width={imgSize}
