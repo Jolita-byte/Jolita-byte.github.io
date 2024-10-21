@@ -150,6 +150,16 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
+      role: 'Business Central Consultant',// Here Add Company Name
+      companylogo: require('../assets/img/Softera.png'),
+      date: ' 2011 September – 2024 June',
+    },
+    {
+      role: 'Quality Assurance Engineer',// Here Add Company Name
+      companylogo: require('../assets/img/elsis_pro.jpg'),
+      date: '2008 February – 2011 September',
+    },
+    {
       role: 'Software Engineer',// Here Add Company Name
       companylogo: require('../assets/img/dell.png'),
       date: 'June 2018 – Present',
