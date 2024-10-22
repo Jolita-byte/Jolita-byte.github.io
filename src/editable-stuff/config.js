@@ -154,8 +154,7 @@ const experiences = {
       companylogo: require('../assets/img/Softera.png'),
       date: ' 2011 September – 2024 June',
       responsibilities: 
-      `<p>RESPONSIBILITIES:</p>
-        <p><b>Project Management:</b> Developed comprehensive project plans, managed priorities, and established timelines. Allocated tasks effectively to developers, ensuring efficient project execution.</p>
+      `<p><b>Project Management:</b> Developed comprehensive project plans, managed priorities, and established timelines. Allocated tasks effectively to developers, ensuring efficient project execution.</p>
         <p><b>Business Analysis:</b> Conducted thorough requirements gathering and analysis to understand client needs. Mapped and optimized business processes to improve efficiency and effectiveness.</p>
         <p><b>Software Development:</b> Designed, developed and tested accounting, payroll and leasing software solutions, including customizations. Conducted communication with team members and stakeholders. Ensured software quality and functionality through rigorous testing and quality assurance processes.</p>
         <p><b>Customer Support:</b> Provided timely technical assistance and training to clients. Resolved client issues promptly and effectively, addressing inquiries with a customer-centric approach.</p>
@@ -165,17 +164,21 @@ const experiences = {
       role: 'Quality Assurance Engineer',// Here Add Company Name
       companylogo: require('../assets/img/elsis_pro.jpg'),
       date: '2008 February – 2011 September',
+      responsibilities: 
+      `<p><b>Requirements Analysis and Design:</b> Analyzing and defining system requirements. Designing system architecture and components.</p>
+        <p><b>Documentation:</b> Creating requirement documentation using Visual Paradigm. Preparing functional documentation and user manuals.</p>
+        <p><b>Testing:</b> Developing testing methodologies and plans. Conducting system testing to identify and address defects. Ensuring system malfunctions are corrected.</p>`
     },
-    {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
-    },
-    {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
-    },
+    // {
+    //   role: 'Software Engineer',// Here Add Company Name
+    //   companylogo: require('../assets/img/dell.png'),
+    //   date: 'June 2018 – Present',
+    // },
+    // {
+    //   role: 'Front-End Developer',
+    //   companylogo: require('../assets/img/boeing.png'),
+    //   date: 'May 2017 – May 2018',
+    // },
   ]
 }
 
