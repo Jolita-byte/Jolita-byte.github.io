@@ -211,13 +211,26 @@ const certifications = {
       title: "Data Science",
       logo: require('../assets/img/CodeAcademy.png'),
       date: '2022 – 2023',
-      details: ""
+      details: `
+      <ul>
+        <li>Python language</li>
+        <li>Exploratory data Analysis</li>
+        <li>Database and SQL</li>
+        <li>Data clustering and classification</li>
+        <li>Introductory machine learning</li>
+      </ul>`
     },
     {
       title: "Java from Scratch",
       logo: require('../assets/img/SDA.png'),
       date: '2020 – 2021',
-      details: ""
+      details: `
+      <ul>
+        <li>Java language: Java fundamentals, Java advanced</li>
+        <li>Software Engineering: software testing, design patterns and good practices</li>
+        <li>Databases: Databases SQL, JDBC, Hibernate</li>
+        <li>Frontend and Backend Technologies: HTML, CSS, JavaScript, Angular, Spring Framework</li>
+      </ul>`
     },
   ]
 }
