@@ -25,7 +25,7 @@ const mainBody = {
     // },
     {
       image: "fa-linkedin",
-      url: "www.linkedin.com/in/jolita-gedminaite",
+      url: "https://www.linkedin.com/in/jolita-gedminaite",
     },
     // {
     //   image: "fa-twitter",
