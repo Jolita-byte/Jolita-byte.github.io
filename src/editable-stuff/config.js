@@ -184,6 +184,19 @@ const experiences = {
   ]
 }
 
+const educations = {
+  show: true,
+  heading: "Education",
+  data: [
+    {
+      title: 'Master of Computer Science',
+      logo: require('../assets/img/Softera.png'),
+      date: ' 2003 – 2009',
+      details: ""
+    },
+  ]
+}
+
 // Blog SECTION
 // const blog = {
 //   show: false,
