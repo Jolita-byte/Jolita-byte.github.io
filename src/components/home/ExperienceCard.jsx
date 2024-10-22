@@ -14,8 +14,9 @@ const ExperienceCard = ({ data }) => {
           <br />
           {data.date}
         </p>
+      </div>
+      <div className="pb-5 text-start">
         <p className="lead" dangerouslySetInnerHTML={{ __html: data.responsibilities }} />
-
       </div>
     </Col>
   );
