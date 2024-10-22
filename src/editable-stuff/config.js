@@ -203,9 +203,28 @@ const educations = {
   ]
 }
 
+const certifications = {
+  show: true,
+  heading: "Courses",
+  data: [
+    {
+      title: "Data Science",
+      logo: require('../assets/img/CodeAcademy.png'),
+      date: ' 2022 – 2023',
+      details: ""
+    },
+    {
+      title: "Java from Scratch",
+      logo: require('../assets/img/SDA.png'),
+      date: ' 2020 – 2021',
+      details: ""
+    },
+  ]
+}
+
 // Blog SECTION
 // const blog = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, educations };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, educations, certifications };
