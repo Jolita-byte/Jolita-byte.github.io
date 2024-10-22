@@ -54,7 +54,9 @@ const about = {
   imageLink: require("../editable-stuff/JolitaFoto.jpg"),
   imageSize: 375,
   message:
-  "I am experienced Software Developer with a Master's in Computer Science, seeking a challenging position in the field of data analytics or data science to leverage my 16 years of experience in software development. Proficient in full software development lifecycles, system implementation, and consultation. Skilled in business analysis, problem-solving, quality assurance, and data processing. <p> My technical expertise includes knowledge in SQL, Python, Power BI, Machine Learning, data processing, and data warehousing. I am committed to delivering high-quality results through a combination of strong work ethic, a passion for learning, and a dedication to excellence. <p> I am eager to contribute my skills and experience to a dynamic team and drive innovative data-driven solutions.",
+  `<p>My name is Jolita Gedminaitė. I am experienced Software Developer with a Master's in Computer Science, seeking a challenging position in the field of data analytics or data science to leverage my 16 years of experience in software development. Proficient in full software development lifecycle, system implementation, and consultation. Skilled in business analysis, problem-solving, quality assurance, and data processing.</p>
+   <p>My technical expertise includes knowledge in SQL, Python, Power BI, Machine Learning, data processing, and data warehousing. I am committed to delivering high-quality results through a combination of strong work ethic, a passion for learning, and a dedication to excellence.</p>
+   <p>I am eager to contribute my skills and experience to a dynamic team and drive innovative data-driven solutions.</p>`,
   resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
 
@@ -73,7 +75,7 @@ const repos = {
 
 // Leadership SECTION
 const leadership = {
-  show: true,
+  show: false,
   heading: "Leadership",
   message:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",

@@ -53,7 +53,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
             />
         </div>
         <div className="col-lg-7 pb-5">
-          <p className="lead text-center">{message}</p>
+          <p className="lead text-center" dangerouslySetInnerHTML={{ __html: message }} />
           {resume && (
             <p className="lead text-center">
               <a
