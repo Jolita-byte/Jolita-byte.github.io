@@ -190,13 +190,13 @@ const educations = {
   data: [
     {
       title: "Master's Degree in Information Systems Engineering",
-      logo: require('../assets/img/ktu.jpg'),
+      logo: require('../assets/img/ktu.png'),
       date: ' 2008 – 2009',
       details: ""
     },
     {
       title: "Bachelor's Degree in Information Systems Engineering",
-      logo: require('../assets/img/ktu.jpg'),
+      logo: require('../assets/img/ktu.png'),
       date: ' 2003 – 2008',
       details: ""
     },
