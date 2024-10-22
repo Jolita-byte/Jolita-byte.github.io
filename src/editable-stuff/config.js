@@ -154,7 +154,7 @@ const experiences = {
       companylogo: require('../assets/img/Softera.png'),
       date: ' 2011 September – 2024 June',
       responsibilities: 
-      `<h1>Responsibilities:</h1>
+      `<p>RESPONSIBILITIES:</p>
         <p><b>Project Management:</b> Developed comprehensive project plans, managed priorities, and established timelines. Allocated tasks effectively to developers, ensuring efficient project execution.</p>
         <p><b>Business Analysis:</b> Conducted thorough requirements gathering and analysis to understand client needs. Mapped and optimized business processes to improve efficiency and effectiveness.</p>
         <p><b>Software Development:</b> Designed, developed and tested accounting, payroll and leasing software solutions, including customizations. Conducted communication with team members and stakeholders. Ensured software quality and functionality through rigorous testing and quality assurance processes.</p>
