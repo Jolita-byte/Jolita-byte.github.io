@@ -10,7 +10,7 @@ const Education = ({ educations }) => {
   return (
     <section className="section">
       <Container>
-        <Jumbotron id="education" className="m-0">
+        <Jumbotron fluid id="education" className="bg-light m-0">
           <h2 className="display-4 mb-5 text-center">
             {educations.heading}
           </h2>
