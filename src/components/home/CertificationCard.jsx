@@ -12,8 +12,8 @@ const CertificationCard = ({ data }) => {
               className="m-0 mb-3" 
               src={data.logo} 
               alt="" 
-              width={200}
-              height={200}
+              width="50%"
+              height="50%"
               />
         <p className="lead">
           {data.title}
