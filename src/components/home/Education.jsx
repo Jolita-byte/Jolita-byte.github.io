@@ -8,9 +8,8 @@ import {
 
 const Education = ({ educations }) => {
   return (
-    <section className="section">
-      <Container>
-        <Jumbotron fluid id="education" className="bg-light m-0">
+    <Jumbotron fluid id="education" className="bg-light m-0">
+      <Container className="">
           <h2 className="display-4 mb-5 text-center">
             {educations.heading}
           </h2>
@@ -21,9 +20,8 @@ const Education = ({ educations }) => {
               })
             }
           </Row>
-        </Jumbotron>
       </Container>
-    </section>
+    </Jumbotron>
   );
 }
 
