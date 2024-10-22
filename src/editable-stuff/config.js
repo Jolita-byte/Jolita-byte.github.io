@@ -154,7 +154,7 @@ const experiences = {
     {
       role: 'Business Central Consultant',// Here Add Company Name
       companylogo: require('../assets/img/Softera.png'),
-      date: ' 2011 September – 2024 June',
+      date: '2011 September – 2024 June',
       responsibilities: 
       `<p><b>Project Management:</b> Developed comprehensive project plans, managed priorities, and established timelines. Allocated tasks effectively to developers, ensuring efficient project execution.</p>
         <p><b>Business Analysis:</b> Conducted thorough requirements gathering and analysis to understand client needs. Mapped and optimized business processes to improve efficiency and effectiveness.</p>
@@ -191,13 +191,13 @@ const educations = {
     {
       title: "Master's Degree in Information Systems Engineering",
       logo: require('../assets/img/ktu-removebg.png'),
-      date: ' 2008 – 2009',
+      date: '2008 – 2009',
       details: ""
     },
     {
       title: "Bachelor's Degree in Information Systems Engineering",
       logo: require('../assets/img/ktu-removebg.png'),
-      date: ' 2003 – 2008',
+      date: '2003 – 2008',
       details: ""
     },
   ]
@@ -210,13 +210,13 @@ const certifications = {
     {
       title: "Data Science",
       logo: require('../assets/img/CodeAcademy.png'),
-      date: ' 2022 – 2023',
+      date: '2022 – 2023',
       details: ""
     },
     {
       title: "Java from Scratch",
       logo: require('../assets/img/SDA.png'),
-      date: ' 2020 – 2021',
+      date: '2020 – 2021',
       details: ""
     },
   ]
