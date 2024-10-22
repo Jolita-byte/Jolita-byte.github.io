@@ -16,7 +16,7 @@ const Certification = ({ certifications }) => {
           <Row>
             {
               certifications.data.map((data, index) => {
-                return <certificationCard key={index} data={data} />
+                return <CertificationCard key={index} data={data} />
               })
             }
           </Row>

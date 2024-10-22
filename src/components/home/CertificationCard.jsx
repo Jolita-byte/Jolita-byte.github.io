@@ -8,13 +8,13 @@ const CertificationCard = ({ data }) => {
   return (
     <Col lg="6">
       <div className="pb-5 text-center">
-        {/* <img 
+        <img 
               className="m-0 mb-3" 
               src={data.logo} 
               alt="" 
               width={200}
               height={200}
-              /> */}
+              />
         <p className="lead">
           {data.title}
           <br />
