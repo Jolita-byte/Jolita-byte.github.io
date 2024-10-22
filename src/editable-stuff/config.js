@@ -189,9 +189,15 @@ const educations = {
   heading: "Education",
   data: [
     {
-      title: 'Master of Computer Science',
-      logo: require('../assets/img/Softera.png'),
-      date: ' 2003 – 2009',
+      title: "Master's Degree in Information Systems Engineering",
+      logo: require('../assets/img/ktu.jpg'),
+      date: ' 2008 – 2009',
+      details: ""
+    },
+    {
+      title: "Bachelor's Degree in Information Systems Engineering",
+      logo: require('../assets/img/ktu.jpg'),
+      date: ' 2003 – 2008',
       details: ""
     },
   ]
