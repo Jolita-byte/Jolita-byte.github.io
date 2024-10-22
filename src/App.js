@@ -81,7 +81,7 @@ const Home = React.forwardRef((props, ref) => {
         )}
       {
         certifications.show && (
-          <Education certifications={certifications}/>
+          <Certification certifications={certifications}/>
         )
       }
     </>
