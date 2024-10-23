@@ -7,7 +7,7 @@ Add info to package.json :
     "deploy": "gh-pages -d build",
 ...
 
-run commands in folder:
+run commands in folder C:\GitHub\jolita-byte.github.io:
 npm install gh-pages --save-dev
 npm run deploy
 
