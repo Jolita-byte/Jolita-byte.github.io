@@ -32,12 +32,12 @@ const Project = ({ heading, username, length, specfic }) => {
       // getting all repos
       const response = await axios.get(allReposAPI);
       // slicing to the length
-      repoList = [...response.data.slice(0, length)];
+      repoList = [...response.data.filter(item => item.topics.includes("portfolio")).slice(0, length)];
       // adding specified repos
       try {
         for (let repoName of specfic) {
           const response = await axios.get(`${specficReposAPI}/${repoName}`);
-          repoList.push(response.data);
+          repoList.push(filteredRepos);
         }
       } catch (error) {
         console.error(error.message);
