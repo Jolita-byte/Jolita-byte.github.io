@@ -1,16 +1,21 @@
-import React, { useState } from "react";
-import { useScrollPosition } from "../hooks/useScrollPosition";
-import useResizeObserver from "../hooks/useResizeObserver";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
+// import React, { useState } from "react";
+// import { useScrollPosition } from "../hooks/useScrollPosition";
+// import useResizeObserver from "../hooks/useResizeObserver";
+// import Navbar from "react-bootstrap/Navbar";
+// import Nav from "react-bootstrap/Nav";
+// import { mainBody, repos, about, skills, experiences, educations, certifications } from "../editable-stuff/config.js";
+// import { NavLink } from "./home/migration";
+
+import React, { useState, useRef, useEffect } from "react";
+import { useResizeObserver } from 'react-resize-observer';
+import { useScrollPosition } from 'react-use';
+import { Navbar, NavbarBrand, NavbarToggle, NavbarCollapse, Nav, NavLink} from 'react-bootstrap';
 import { mainBody, repos, about, skills, experiences, educations, certifications } from "../editable-stuff/config.js";
-import { NavLink } from "./home/migration";
 
 const Navigation = React.forwardRef((props, ref) => {
-  // const { showBlog, FirstName } = config;
   const [isTop, setIsTop] = useState(true);
   const [scrollPosition, setScrollPosition] = useState(0);
-  const navbarMenuRef = React.useRef();
+  const navbarMenuRef = useRef();
   const navbarDimensions = useResizeObserver(navbarMenuRef);
   const navBottom = navbarDimensions ? navbarDimensions.bottom : 0;
   useScrollPosition(
@@ -24,12 +29,29 @@ const Navigation = React.forwardRef((props, ref) => {
     [navBottom]
   );
 
-  React.useEffect(() => {
-    if (!navbarDimensions) return;
-    navBottom - scrollPosition >= ref.current.offsetTop
-      ? setIsTop(false)
-      : setIsTop(true);
-  }, [navBottom, navbarDimensions, ref, scrollPosition]);
+  // React.useEffect(() => {
+  //   if (!navbarDimensions) return;
+  //   navBottom - scrollPosition >= ref.current.offsetTop
+  //     ? setIsTop(false)
+  //     : setIsTop(true);
+  // }, [navBottom, navbarDimensions, ref, scrollPosition]);
+  
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const handleMobileMenuToggle = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  useEffect(() => {
+    const closeMenuOnClickOutside = (event) => {
+      if (!isMobileMenuOpen || ref.current.contains(event.target)) return;
+      setIsMobileMenuOpen(false);
+    };
+
+    document.addEventListener('click', closeMenuOnClickOutside);
+
+    return () => document.removeEventListener('click', closeMenuOnClickOutside);
+  }, [isMobileMenuOpen, ref]);
 
   return (
     <Navbar
