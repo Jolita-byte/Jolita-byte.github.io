@@ -10,7 +10,7 @@ import React, { useState, useRef, useEffect } from "react";
 import useResizeObserver from "../hooks/useResizeObserver";
 import { useScrollPosition } from "../hooks/useScrollPosition";
 import { Navbar, NavbarBrand, NavbarToggle, NavbarCollapse, Nav, NavLink} from 'react-bootstrap';
-import { mainBody, repos, about, skills, experiences, educations, certifications } from "../editable-stuff/config.js";
+import { mainBody, repos, about, skills, experiences, educations, certifications, getInTouch} from "../editable-stuff/config.js";
 
 const Navigation = React.forwardRef((props, ref) => {
   const [isTop, setIsTop] = useState(true);
@@ -105,7 +105,15 @@ const Navigation = React.forwardRef((props, ref) => {
               Skills
             </NavLink>
           )}
-            {experiences.show && (
+          {getInTouch.show && (
+            <NavLink
+              className="nav-item lead"
+              href={process.env.PUBLIC_URL + "/#contacts"}
+            >
+              Contacts
+            </NavLink>
+          )}
+            {/* {experiences.show && (
             <NavLink
               className="nav-item lead"
               href={process.env.PUBLIC_URL + "/#experience"}
@@ -128,7 +136,7 @@ const Navigation = React.forwardRef((props, ref) => {
             >
               Courses
             </NavLink>
-          )}
+          )} */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>
