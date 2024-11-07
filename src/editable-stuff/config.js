@@ -29,6 +29,10 @@ const mainBody = {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/jolita-gedminaite",
     },
+    {
+      image: "fa-envelope",
+      url: "https://www.linkedin.com/in/jolita-gedminaite",
+    },
     // {
     //   image: "fa-twitter",
     //   url: "https://www.twitter.com/hashirshoaeb/",
