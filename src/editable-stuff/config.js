@@ -26,11 +26,7 @@ const mainBody = {
     //   url: "https://www.instagram.com/hashirshoaeb/",
     // },
     {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/jolita-gedminaite",
-    },
-    {
-      image: "fa-envelope",
+      image: "fab fa-linkedin",
       url: "https://www.linkedin.com/in/jolita-gedminaite",
     },
     // {
@@ -38,11 +34,11 @@ const mainBody = {
     //   url: "https://www.twitter.com/hashirshoaeb/",
     // },
     {
-      image: "fa-phone",
+      image: "fa fa-phone",
       url: "tel:+37064884404",
     },
     {
-      image: "fa-envelope",
+      image: "fa fa-envelope",
       url: "mailto:jolita.gedminaite1@gmail.com",
     },
   ],
