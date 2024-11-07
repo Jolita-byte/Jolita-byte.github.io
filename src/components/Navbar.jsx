@@ -46,11 +46,13 @@ const Navigation = React.forwardRef((props, ref) => {
     const closeMenuOnClickOutside = (event) => {
       if (!isMobileMenuOpen || ref.current.contains(event.target)) return;
       setIsMobileMenuOpen(false);
+      console.log('Closing menu:', event.target); // Log for debugging
     };
-  
+
     document.addEventListener('mousedown', closeMenuOnClickOutside);
-  
-    return () => document.removeEventListener('mousedown', closeMenuOnClickOutside);
+
+    return () => document.removeEventListener('mousedown', closeMenuOnClickOutside);   
+
   }, [isMobileMenuOpen, ref]);
 
   return (
