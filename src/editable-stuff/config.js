@@ -64,7 +64,7 @@ const about = {
   imageLink: require("../editable-stuff/JolitaFoto.jpg"),
   imageSize: 375,
   message:
-  `<p>My name is Jolita Gedminaitė. I am experienced Software Developer with a Master's in Computer Science, seeking a challenging position in the field of data analytics or data science to leverage my 16 years of experience in software development. Proficient in full software development lifecycle, system implementation, and consultation. Skilled in business analysis, problem-solving, quality assurance, and data processing.</p>
+  `<p>My name is Jolita Gedminaitė. I am experienced Software Developer with a Master's in Computer Science, seeking a challenging position in the field of data to leverage my 16 years of experience in software development. I am proficient in full software development lifecycle, system implementation, and consultation. Skilled in business analysis, problem-solving, quality assurance and data analysis.</p>
    <p>My technical expertise includes knowledge in SQL, Python, Power BI, Machine Learning, data processing, and data warehousing. I am committed to delivering high-quality results through a combination of strong work ethic, a passion for learning, and a dedication to excellence.</p>
    <p>I am eager to contribute my skills and experience to a dynamic team and drive innovative data-driven solutions.</p>`,
   resume: "https://drive.google.com/file/d/1kVGpexuZqvEAhL6IbU0Y4NeK7tAkTZdr/view?usp=drive_link",
