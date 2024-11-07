@@ -107,7 +107,7 @@ const Navigation = React.forwardRef((props, ref) => {
           )}
           {getInTouch.show && (
             <NavLink
-              className="nav-item lead"
+              // className="nav-item lead"
               href={process.env.PUBLIC_URL + "/#contacts"}
             >
               Contacts
