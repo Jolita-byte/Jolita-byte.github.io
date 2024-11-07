@@ -32,6 +32,14 @@ const mainBody = {
     //   image: "fa-twitter",
     //   url: "https://www.twitter.com/hashirshoaeb/",
     // },
+    {
+      image: "fa-phone",
+      url: "tel:+37064884404",
+    },
+    {
+      image: "fa-envelope",
+      url: "mailto:jolita.gedminaite1@gmail.com",
+    },
   ],
 };
 
