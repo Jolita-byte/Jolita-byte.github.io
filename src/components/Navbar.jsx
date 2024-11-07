@@ -47,10 +47,10 @@ const Navigation = React.forwardRef((props, ref) => {
       if (!isMobileMenuOpen || ref.current.contains(event.target)) return;
       setIsMobileMenuOpen(false);
     };
-
-    document.addEventListener('click', closeMenuOnClickOutside);
-
-    return () => document.removeEventListener('click', closeMenuOnClickOutside);
+  
+    document.addEventListener('mousedown', closeMenuOnClickOutside);
+  
+    return () => document.removeEventListener('mousedown', closeMenuOnClickOutside);
   }, [isMobileMenuOpen, ref]);
 
   return (
