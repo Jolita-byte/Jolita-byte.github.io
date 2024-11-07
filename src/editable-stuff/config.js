@@ -10,7 +10,8 @@ const mainBody = {
   firstName: "Jolita",
   middleName: "",
   lastName: "Gedminaitė",
-  message: " Passionate about changing the world with technology. ",
+  // message: " Passionate about changing the world with technology. ",
+  message: "Passionate about shaping the world with data.",
   icons: [
     // {
     //   image: "fa-github",
