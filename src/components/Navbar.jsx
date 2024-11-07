@@ -7,7 +7,7 @@
 // import { NavLink } from "./home/migration";
 
 import React, { useState, useRef, useEffect } from "react";
-import { useResizeObserver } from 'react-resize-observer';
+import useResizeObserver from "../hooks/useResizeObserver";
 import { useScrollPosition } from 'react-use';
 import { Navbar, NavbarBrand, NavbarToggle, NavbarCollapse, Nav, NavLink} from 'react-bootstrap';
 import { mainBody, repos, about, skills, experiences, educations, certifications } from "../editable-stuff/config.js";
